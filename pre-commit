@@ -6,5 +6,5 @@
 branch=`git rev-parse --abbrev-ref HEAD`
 
 if [ "$branch" = "master" ]; then
-  make test
+  make precommit
 fi
